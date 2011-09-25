@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		760C675F1401B5DC0081D3AB /* alarmlight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 760C675E1401B5DC0081D3AB /* alarmlight.jpg */; };
+		760C67621401B6370081D3AB /* strobelight.png in Resources */ = {isa = PBXBuildFile; fileRef = 760C67611401B6370081D3AB /* strobelight.png */; };
+		760C67641401B6930081D3AB /* sos.png in Resources */ = {isa = PBXBuildFile; fileRef = 760C67631401B6930081D3AB /* sos.png */; };
+		760C67661401C1AD0081D3AB /* lightinghouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 760C67651401C1AD0081D3AB /* lightinghouse.png */; };
+		760C676A1401C2330081D3AB /* AboutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 760C67681401C2330081D3AB /* AboutView.m */; };
+		760C676B1401C2330081D3AB /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 760C67691401C2330081D3AB /* AboutView.xib */; };
+		76C24C3B13FA22ED00BB00D7 /* 53-house.png in Resources */ = {isa = PBXBuildFile; fileRef = 76C24C3A13FA22ED00BB00D7 /* 53-house.png */; };
+		76C24C3E13FA235800BB00D7 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C24C3D13FA235800BB00D7 /* iAd.framework */; };
+		76DE0A451401CDCE000550A0 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 76DE0A441401CDCE000550A0 /* default.png */; };
+		88629D7E13E0941B0069F38B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88629D7D13E0941B0069F38B /* UIKit.framework */; };
+		88629D8013E0941B0069F38B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88629D7F13E0941B0069F38B /* Foundation.framework */; };
+		88629D8213E0941B0069F38B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88629D8113E0941B0069F38B /* CoreGraphics.framework */; };
+		88629D8813E0941B0069F38B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88629D8613E0941B0069F38B /* InfoPlist.strings */; };
+		88629D8B13E0941B0069F38B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88629D8A13E0941B0069F38B /* main.m */; };
+		88629D8E13E0941B0069F38B /* LightOnAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88629D8D13E0941B0069F38B /* LightOnAppDelegate.m */; };
+		88629D9113E0941B0069F38B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88629D8F13E0941B0069F38B /* MainWindow.xib */; };
+		88629D9413E0941B0069F38B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88629D9313E0941B0069F38B /* RootViewController.m */; };
+		88629D9713E0941C0069F38B /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88629D9513E0941C0069F38B /* RootViewController.xib */; };
+		88629DA013E095100069F38B /* SwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88629D9E13E095100069F38B /* SwitchView.m */; };
+		88629DA113E095100069F38B /* SwitchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88629D9F13E095100069F38B /* SwitchView.xib */; };
+		88629DA313E09B160069F38B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88629DA213E09B160069F38B /* AVFoundation.framework */; };
+		88629DA613E0A6070069F38B /* lighton.png in Resources */ = {isa = PBXBuildFile; fileRef = 88629DA513E0A6070069F38B /* lighton.png */; };
+		88629DAB13E0C09D0069F38B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 88629DA713E0C09D0069F38B /* Icon.png */; };
+		88629DAC13E0C09D0069F38B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 88629DA813E0C09D0069F38B /* Icon-72.png */; };
+		88629DAD13E0C09D0069F38B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88629DA913E0C09D0069F38B /* Icon@2x.png */; };
+		88629DAE13E0C09D0069F38B /* Icon512.png in Resources */ = {isa = PBXBuildFile; fileRef = 88629DAA13E0C09D0069F38B /* Icon512.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		760C675E1401B5DC0081D3AB /* alarmlight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = alarmlight.jpg; path = Resources/alarmlight.jpg; sourceTree = "<group>"; };
+		760C67611401B6370081D3AB /* strobelight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = strobelight.png; path = Resources/strobelight.png; sourceTree = "<group>"; };
+		760C67631401B6930081D3AB /* sos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sos.png; path = Resources/sos.png; sourceTree = "<group>"; };
+		760C67651401C1AD0081D3AB /* lightinghouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lightinghouse.png; path = Resources/lightinghouse.png; sourceTree = "<group>"; };
+		760C67671401C2330081D3AB /* AboutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutView.h; sourceTree = "<group>"; };
+		760C67681401C2330081D3AB /* AboutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutView.m; sourceTree = "<group>"; };
+		760C67691401C2330081D3AB /* AboutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
+		76C24C3A13FA22ED00BB00D7 /* 53-house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "53-house.png"; path = "Resources/53-house.png"; sourceTree = "<group>"; };
+		76C24C3D13FA235800BB00D7 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		76DE0A441401CDCE000550A0 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = Resources/default.png; sourceTree = "<group>"; };
+		88629D7913E0941B0069F38B /* LightOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightOn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88629D7D13E0941B0069F38B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		88629D7F13E0941B0069F38B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88629D8113E0941B0069F38B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88629D8513E0941B0069F38B /* LightOn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LightOn-Info.plist"; sourceTree = "<group>"; };
+		88629D8713E0941B0069F38B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88629D8913E0941B0069F38B /* LightOn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LightOn-Prefix.pch"; sourceTree = "<group>"; };
+		88629D8A13E0941B0069F38B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88629D8C13E0941B0069F38B /* LightOnAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightOnAppDelegate.h; sourceTree = "<group>"; };
+		88629D8D13E0941B0069F38B /* LightOnAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightOnAppDelegate.m; sourceTree = "<group>"; };
+		88629D9013E0941B0069F38B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		88629D9213E0941B0069F38B /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		88629D9313E0941B0069F38B /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		88629D9613E0941C0069F38B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		88629D9D13E095100069F38B /* SwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchView.h; sourceTree = "<group>"; };
+		88629D9E13E095100069F38B /* SwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchView.m; sourceTree = "<group>"; };
+		88629D9F13E095100069F38B /* SwitchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchView.xib; sourceTree = "<group>"; };
+		88629DA213E09B160069F38B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		88629DA513E0A6070069F38B /* lighton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lighton.png; path = Resources/lighton.png; sourceTree = "<group>"; };
+		88629DA713E0C09D0069F38B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
+		88629DA813E0C09D0069F38B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources/Icon-72.png"; sourceTree = "<group>"; };
+		88629DA913E0C09D0069F38B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
+		88629DAA13E0C09D0069F38B /* Icon512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon512.png; path = Resources/Icon512.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88629D7613E0941B0069F38B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C24C3E13FA235800BB00D7 /* iAd.framework in Frameworks */,
+				88629DA313E09B160069F38B /* AVFoundation.framework in Frameworks */,
+				88629D7E13E0941B0069F38B /* UIKit.framework in Frameworks */,
+				88629D8013E0941B0069F38B /* Foundation.framework in Frameworks */,
+				88629D8213E0941B0069F38B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88629D6E13E0941B0069F38B = {
+			isa = PBXGroup;
+			children = (
+				76DE0A441401CDCE000550A0 /* default.png */,
+				760C67651401C1AD0081D3AB /* lightinghouse.png */,
+				760C67631401B6930081D3AB /* sos.png */,
+				760C67611401B6370081D3AB /* strobelight.png */,
+				760C675E1401B5DC0081D3AB /* alarmlight.jpg */,
+				76C24C3D13FA235800BB00D7 /* iAd.framework */,
+				76C24C3A13FA22ED00BB00D7 /* 53-house.png */,
+				88629DA713E0C09D0069F38B /* Icon.png */,
+				88629DA813E0C09D0069F38B /* Icon-72.png */,
+				88629DA913E0C09D0069F38B /* Icon@2x.png */,
+				88629DAA13E0C09D0069F38B /* Icon512.png */,
+				88629DA513E0A6070069F38B /* lighton.png */,
+				88629DA213E09B160069F38B /* AVFoundation.framework */,
+				88629D8313E0941B0069F38B /* LightOn */,
+				88629D7C13E0941B0069F38B /* Frameworks */,
+				88629D7A13E0941B0069F38B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88629D7A13E0941B0069F38B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88629D7913E0941B0069F38B /* LightOn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88629D7C13E0941B0069F38B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88629D7D13E0941B0069F38B /* UIKit.framework */,
+				88629D7F13E0941B0069F38B /* Foundation.framework */,
+				88629D8113E0941B0069F38B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88629D8313E0941B0069F38B /* LightOn */ = {
+			isa = PBXGroup;
+			children = (
+				88629D8C13E0941B0069F38B /* LightOnAppDelegate.h */,
+				88629D8D13E0941B0069F38B /* LightOnAppDelegate.m */,
+				88629D8F13E0941B0069F38B /* MainWindow.xib */,
+				88629D9213E0941B0069F38B /* RootViewController.h */,
+				88629D9313E0941B0069F38B /* RootViewController.m */,
+				88629D9513E0941C0069F38B /* RootViewController.xib */,
+				88629D8413E0941B0069F38B /* Supporting Files */,
+				88629D9D13E095100069F38B /* SwitchView.h */,
+				88629D9E13E095100069F38B /* SwitchView.m */,
+				88629D9F13E095100069F38B /* SwitchView.xib */,
+				760C67671401C2330081D3AB /* AboutView.h */,
+				760C67681401C2330081D3AB /* AboutView.m */,
+				760C67691401C2330081D3AB /* AboutView.xib */,
+			);
+			path = LightOn;
+			sourceTree = "<group>";
+		};
+		88629D8413E0941B0069F38B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88629D8513E0941B0069F38B /* LightOn-Info.plist */,
+				88629D8613E0941B0069F38B /* InfoPlist.strings */,
+				88629D8913E0941B0069F38B /* LightOn-Prefix.pch */,
+				88629D8A13E0941B0069F38B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88629D7813E0941B0069F38B /* LightOn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88629D9A13E0941C0069F38B /* Build configuration list for PBXNativeTarget "LightOn" */;
+			buildPhases = (
+				88629D7513E0941B0069F38B /* Sources */,
+				88629D7613E0941B0069F38B /* Frameworks */,
+				88629D7713E0941B0069F38B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightOn;
+			productName = LightOn;
+			productReference = 88629D7913E0941B0069F38B /* LightOn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88629D7013E0941B0069F38B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 88629D7313E0941B0069F38B /* Build configuration list for PBXProject "LightOn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 88629D6E13E0941B0069F38B;
+			productRefGroup = 88629D7A13E0941B0069F38B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88629D7813E0941B0069F38B /* LightOn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88629D7713E0941B0069F38B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88629D8813E0941B0069F38B /* InfoPlist.strings in Resources */,
+				88629D9113E0941B0069F38B /* MainWindow.xib in Resources */,
+				88629D9713E0941C0069F38B /* RootViewController.xib in Resources */,
+				88629DA113E095100069F38B /* SwitchView.xib in Resources */,
+				88629DA613E0A6070069F38B /* lighton.png in Resources */,
+				88629DAB13E0C09D0069F38B /* Icon.png in Resources */,
+				88629DAC13E0C09D0069F38B /* Icon-72.png in Resources */,
+				88629DAD13E0C09D0069F38B /* Icon@2x.png in Resources */,
+				88629DAE13E0C09D0069F38B /* Icon512.png in Resources */,
+				76C24C3B13FA22ED00BB00D7 /* 53-house.png in Resources */,
+				760C675F1401B5DC0081D3AB /* alarmlight.jpg in Resources */,
+				760C67621401B6370081D3AB /* strobelight.png in Resources */,
+				760C67641401B6930081D3AB /* sos.png in Resources */,
+				760C67661401C1AD0081D3AB /* lightinghouse.png in Resources */,
+				760C676B1401C2330081D3AB /* AboutView.xib in Resources */,
+				76DE0A451401CDCE000550A0 /* default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88629D7513E0941B0069F38B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88629D8B13E0941B0069F38B /* main.m in Sources */,
+				88629D8E13E0941B0069F38B /* LightOnAppDelegate.m in Sources */,
+				88629D9413E0941B0069F38B /* RootViewController.m in Sources */,
+				88629DA013E095100069F38B /* SwitchView.m in Sources */,
+				760C676A1401C2330081D3AB /* AboutView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88629D8613E0941B0069F38B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88629D8713E0941B0069F38B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		88629D8F13E0941B0069F38B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88629D9013E0941B0069F38B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		88629D9513E0941C0069F38B /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88629D9613E0941C0069F38B /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7627AAE313E5021E002B6409 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		7627AAE413E5021E002B6409 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightOn/LightOn-Prefix.pch";
+				INFOPLIST_FILE = "LightOn/LightOn-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		88629D9813E0941C0069F38B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88629D9913E0941C0069F38B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		88629D9B13E0941C0069F38B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Albert Pascual (3D4FKWXDK6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Albert Pascual (3D4FKWXDK6)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightOn/LightOn-Prefix.pch";
+				INFOPLIST_FILE = "LightOn/LightOn-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0CE38A04-7CF7-40C9-A135-92A59B38ED34";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0CE38A04-7CF7-40C9-A135-92A59B38ED34";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88629D9C13E0941C0069F38B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightOn/LightOn-Prefix.pch";
+				INFOPLIST_FILE = "LightOn/LightOn-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88629D7313E0941B0069F38B /* Build configuration list for PBXProject "LightOn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88629D9813E0941C0069F38B /* Debug */,
+				88629D9913E0941C0069F38B /* Release */,
+				7627AAE313E5021E002B6409 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88629D9A13E0941C0069F38B /* Build configuration list for PBXNativeTarget "LightOn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88629D9B13E0941C0069F38B /* Debug */,
+				88629D9C13E0941C0069F38B /* Release */,
+				7627AAE413E5021E002B6409 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88629D7013E0941B0069F38B /* Project object */;
+}
